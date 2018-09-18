@@ -1,0 +1,176 @@
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  html body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    background: linear-gradient(to bottom right, lightgreen, lightskyblue);
+    overflow: hidden; }
+    html body #root {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html body #root .flex-container {
+        width: 75%;
+        height: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row; }
+        html body #root .flex-container .left-flex {
+          width: 50%;
+          height: 80%;
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column;
+          border-width: 0px;
+          border-right: 3px solid;
+          border-style: solid;
+          border-image: linear-gradient(#6d6b70, rgba(0, 0, 0, 0)) 1 100%;
+          padding-left: 10px;
+          padding-right: 20px;
+          text-align: right; }
+        html body #root .flex-container .right-flex {
+          width: 50%;
+          height: 80%;
+          padding-left: 20px;
+          padding-right: 10px; }
+          html body #root .flex-container .right-flex .user-flex-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 3.3em; }
+            html body #root .flex-container .right-flex .user-flex-container .user-sec-one {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              align-content: center;
+              justify-content: flex-start;
+              animation: slide-sec-one 1s; }
+
+@keyframes slide-sec-one {
+  from {
+    margin-top: 100%;
+    width: 300%; }
+  to {
+    margin-top: 0%;
+    width: 100%; } }
+              html body #root .flex-container .right-flex .user-flex-container .user-sec-one .profile-img {
+                border-radius: 50%;
+                width: 80px;
+                height: 80px; }
+              html body #root .flex-container .right-flex .user-flex-container .user-sec-one a {
+                padding-left: 20px; }
+            html body #root .flex-container .right-flex .user-flex-container .user-sec-two {
+              width: 100%;
+              font-size: 0.6em;
+              animation: slide-sec-two 1s; }
+
+@keyframes slide-sec-two {
+  from {
+    margin-top: 100%;
+    width: 300%; }
+  to {
+    margin-top: 0%;
+    width: 100%; } }
+            html body #root .flex-container .right-flex .user-flex-container .user-sec-three {
+              width: 100%;
+              font-size: 0.5em;
+              animation: slide-sec-three 1.5s; }
+
+@keyframes slide-sec-three {
+  from {
+    margin-bottom: 100%;
+    width: 300%; }
+  to {
+    margin-bottom: 0%;
+    width: 100%; } }
+            html body #root .flex-container .right-flex .user-flex-container .user-sec-four {
+              width: 100%;
+              font-size: 0.5em;
+              animation: slide-sec-four 2s; }
+
+@keyframes slide-sec-four {
+  from {
+    margin-bottom: 100%;
+    width: 300%; }
+  to {
+    margin-bottom: 0%;
+    width: 100%; } }
+            html body #root .flex-container .right-flex .user-flex-container .user-sec-five {
+              font-size: 0.5em;
+              width: 100%;
+              animation: slide-sec-five 2.5s; }
+
+@keyframes slide-sec-five {
+  from {
+    margin-bottom: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+          html body #root .flex-container .right-flex .invalid-msg-flex {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            justify-content: space-around;
+            font-size: 3.3em; }
+            html body #root .flex-container .right-flex .invalid-msg-flex .invalid-msg-top {
+              animation: slide-left-faster 0.5s; }
+
+@keyframes slide-left-faster {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+            html body #root .flex-container .right-flex .invalid-msg-flex .invalid-msg-bottom {
+              text-align: right;
+              animation: slide-left 1s; }
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+        html body #root .flex-container .username-input {
+          background-color: rgba(0, 0, 0, 0);
+          border: none;
+          font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+          font-size: 3.3em;
+          width: 100%;
+          height: 50%;
+          padding-bottom: 200px; }
+        html body #root .flex-container input[type=text] {
+          color: #201f21;
+          text-align: right; }
+        html body #root .flex-container .button-wrapper {
+          height: 10%; }
+          html body #root .flex-container .button-wrapper .refine-button {
+            width: 40%;
+            height: 100%;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            transition: background-color 0.5s ease; }
+            html body #root .flex-container .button-wrapper .refine-button:hover {
+              background-color: #68ba83; }
+        html body #root .flex-container textarea:focus, html body #root .flex-container input:focus {
+          outline: none; }
