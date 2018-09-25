@@ -10,7 +10,7 @@ Observe search result
 
 Enter an invalid GitHub username - see what happens!
 
-Click on "Launch fefine search"
+Click on "Launch refine search"
 
 Open developer tools
 
